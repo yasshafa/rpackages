@@ -27,11 +27,10 @@ author-note:
     financial-support: ~
     gratitude: ~
     authorship-agreements: ~
-abstract: "This document is a template."
-keywords: [Keyword 1, Keyword 2, Keyword 3]
+abstract: "This document is according to the R studio."
+keywords: [importing, Data, R Studio, packages, exploring, extentions, format, exporting]
 bibliography: bibliography.bib
 format:
-  apaquarto-docx: default
   apaquarto-html: default
   apaquarto-typst: default
   apaquarto-pdf:
@@ -40,6 +39,42 @@ format:
 
 information
 
-# **What is RStudio?**
+ **What is RStudio?**
 
 **RStudio** is a **free and open-source Integrated Development Environment (IDE)** designed specifically for working with the **R programming language**. It provides a user-friendly interface for coding, data analysis, visualization, and reporting.
+
+
+
+
+
+
+
+
+
+# Affadative
+
+I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used. Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship. This paper either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
+
+I acknowledge that the university may use plagiarism detection software to check my thesis. I agree to cooperate with any investigation of suspected plagiarism and to provide any additional information or evidence requested by the university.
+
+Checklist:
+
+-   [ ] The handout contains 3-5 pages of text.
+-   [ ] The submission contains the Quarto file of the handout.
+-   [ ] The submission contains the Quarto file of the presentation.
+-   [ ] The submission contains the HTML file of the handout.
+-   [ ] The submission contains the HTML file of the presentation.
+-   [ ] The submission contains the PDF file of the handout.
+-   [ ] The submission contains the PDF file of the presentation.
+-   [ ] The title page of the presentation and the handout contain personal details (name, email, matriculation number).
+-   [ ] The handout contains a abstract.
+-   [ ] The presentation and the handout contain a bibliography, created using BibTeX with APA citation style.
+-   [ ] Either the handout or the presentation contains R code that proof the expertise in coding.
+-   [ ] The handout includes an introduction to guide the reader and a conclusion summarizing the work and discussing potential further investigations and readings, respectively.
+-   [ ] All significant resources used in the report and R code development.
+-   [ ] The filled out Affidavit.
+-   [ ] A concise description of the successful use of Git and GitHub, as detailed here: <https://github.com/hubchev/make_a_pull_request>.
+-   [ ] The link to the presentation and the handout published on GitHub.
+
+\[Yassaman Shafabakhsh,\] \[05/28/2025,\] \[Koln\]
+:::
