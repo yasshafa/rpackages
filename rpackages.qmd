@@ -1,0 +1,45 @@
+---
+---
+title: "Importing Data in R - Exploring Packages and Their Advantages"
+shorttitle: "Short Title in Running Header"
+author:
+  - name: Yassaman Shafabakhsh
+    corresponding: true
+    orcid: 0000-0000-0000-0001
+    email: shafabakhsh.yassaman@stud.hs-fresenius.de
+    affiliations:
+      - name: "Hochschule Fresenius - University of Applied Science"
+        department: "Intrernational Management, M.A."
+        address: 
+        city: Koln
+        region: 
+        country:
+        postal-code: 
+author-note:
+  status-changes: 
+    affiliation-change: ~
+    deceased: ~
+  disclosures:
+    study-registration: ~
+    data-sharing: ~
+    related-report: ~
+    conflict-of-interest: ~
+    financial-support: ~
+    gratitude: ~
+    authorship-agreements: ~
+abstract: "This document is a template."
+keywords: [Keyword 1, Keyword 2, Keyword 3]
+bibliography: bibliography.bib
+format:
+  apaquarto-docx: default
+  apaquarto-html: default
+  apaquarto-typst: default
+  apaquarto-pdf:
+    documentmode: man
+---
+
+information
+
+# **What is RStudio?**
+
+**RStudio** is a **free and open-source Integrated Development Environment (IDE)** designed specifically for working with the **R programming language**. It provides a user-friendly interface for coding, data analysis, visualization, and reporting.
