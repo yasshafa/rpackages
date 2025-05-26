@@ -7,7 +7,6 @@ shorttitle: "Exploring Packages and Their Advantages"
 author:
   - name: "Yassaman Shafabakhsh (Matriculation:400806611)"
     corresponding: true
-    orcid: 0000-0000-0000-0001
     email: shafabakhsh.yassaman@stud.hs-fresenius.de
     url: 
     affiliations:
@@ -78,26 +77,13 @@ language:
   title-block-role-introduction: "Author roles were classified using the Contributor Role Taxonomy (CRediT; [credit.niso.org](https://credit.niso.org)) as follows:"
   title-impact-statement: "Impact Statement"
   references-meta-analysis: "References marked with an asterisk indicate studies included in the meta-analysis."
-format:
-  apaquarto-html: 
+output: 
+  html_document:
     toc: true
-    theme: cosmo
-    echo: true
-    css: styles.css
-  apaquarto-typst: 
-    keep-typ: true
-    list-of-figures: false
-    list-of-tables: false
-    toc: true
-    papersize: "us-letter"
-  apaquarto-pdf:
-    # Can be jou (journal), man (manuscript), stu (student), or doc (document)
-    toc: true
-    documentmode: man
-    keep-tex: true
-echo: true
+    number_section: true
+    css: apa.css
 ---
-happy happy happy 
+happy happy happy happppppppppppyyyyyyyyyyy
 
 # Introduction
 
