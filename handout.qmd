@@ -37,8 +37,7 @@ editor:
   markdown: 
     wrap: 72
 ---
-
-## <!-- The introduction should not have a level-1 heading such as Introduction. -->
+<!-- The introduction should not have a level-1 heading such as Introduction. -->
 
 ```{r}
 #| echo: false
