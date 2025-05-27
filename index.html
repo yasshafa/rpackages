@@ -46,15 +46,15 @@ div.csl-indent {
 }</style>
 
 
-<script src="template_files/libs/clipboard/clipboard.min.js"></script>
-<script src="template_files/libs/quarto-html/quarto.js"></script>
-<script src="template_files/libs/quarto-html/popper.min.js"></script>
-<script src="template_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="template_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="template_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="template_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="template_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="template_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="handout_files/libs/clipboard/clipboard.min.js"></script>
+<script src="handout_files/libs/quarto-html/quarto.js"></script>
+<script src="handout_files/libs/quarto-html/popper.min.js"></script>
+<script src="handout_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="handout_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="handout_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="handout_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="handout_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="handout_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
 
 <link rel="stylesheet" href="_extensions/apaquarto/apa.css">
@@ -74,7 +74,7 @@ div.csl-indent {
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#affidative" id="toc-affidative" class="nav-link" data-scroll-target="#affidative">Affidative</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="template.pdf"><i class="bi bi-file-pdf"></i>Typst (apaquarto)</a></li><li><a href="template.pdf"><i class="bi bi-file-pdf"></i>PDF (apaquarto)</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="handout.pdf"><i class="bi bi-file-pdf"></i>Typst (apaquarto)</a></li><li><a href="handout.pdf"><i class="bi bi-file-pdf"></i>PDF (apaquarto)</a></li></ul></div></nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
 </div>
@@ -102,7 +102,7 @@ div.csl-indent {
 </section>
 <section id="author-note" class="level1 unnumbered unlisted AuthorNote">
 <h1 class="unnumbered unlisted AuthorNote">Author Note</h1>
-<p>Correspondence concerning this article should be addressed to Yassaman Shafabakhsh (Matriculation Number:400806611), International Management, M.A., Hochschule Fresenius - University of Applied Science, Email: <a href="mailto:shafabakhsh.yassaman@stud.hs-fresenius.de">shafabakhsh.yassaman@stud.hs-fresenius.de</a></p>
+<p>Correspondence concerning this article should be addressed to Yassaman Shafabakhsh (Matriculation Number:400806611), International Management, M.A., Hochschule Fresenius - University of Applied Science, n, Email: <a href="mailto:shafabakhsh.yassaman@stud.hs-fresenius.de">shafabakhsh.yassaman@stud.hs-fresenius.de</a></p>
 <br>
 </section>
 <section id="abstract" class="level1 unnumbered unlisted AuthorNote">
@@ -120,51 +120,25 @@ div.csl-indent {
 </section>
 <section id="why-importing-data-matters" class="level1">
 <h1>Why Importing Data Matters</h1>
-<p>Importing data is one of the foundational steps in data analysis, setting the stage for accurate and effective research outcomes. The process of importing data goes beyond merely loading files but it also involves making sure your data is accurate, easy to work with, and compatible with your tools. Handling this first step correctly greatly affects the quality and reliability of your entire analysis.</p>
-<ol type="1">
-<li>Accurate data importing is crucial because any errors at this stage can propagate and amplify throughout the entire analysis process, leading to incorrect conclusions and misguided decisions. Proper import methods ensure:</li>
-</ol>
+<p>Importing data is a key first step in data analysis that ensures your data is accurate, manageable, and compatible with your tools. Doing this correctly improves the quality and reliability of your entire analysis.</p>
+<p>Key benefits include:</p>
 <ul>
-<li><p>Data Integrity: Data types (numeric, factor, date) are recognized and assigned correctly, preserving original data meaning.</p></li>
-<li><p>Reduction of Errors: Correctly handling missing values, special characters, and encoding issues helps prevent common mistakes that can affect the validity of analytical results.</p></li>
-<li><p>Consistency: Ensuring data maintains its original structure and formatting across different analytical sessions.</p></li>
+<li>Accuracy – Correctly reads and preserves data structure</li>
+<li>Efficiency – Saves time, especially with large datasets</li>
+<li>Compatibility – Supports various file types and software</li>
 </ul>
-<ol start="2" type="1">
-<li>Efficiency in importing data becomes especially critical when dealing with large datasets or frequent data updates. Efficient importing provides:</li>
-</ol>
-<ul>
-<li><p>Time Savings: Automation and streamlined packages such as rio or data.table reduce manual intervention, speeding up the analysis workflow significantly.</p></li>
-<li><p>Scalability: Properly optimized import methods allow analysts to easily manage and repeatedly import large datasets without performance degradation, enabling smoother data exploration and manipulation.</p></li>
-</ul>
-<ol start="3" type="1">
-<li>Data often originates from multiple sources and formats—CSV, Excel, SPSS, Stata, SAS, databases, and more. Compatibility in importing ensures:</li>
-</ol>
-<ul>
-<li><p>Flexibility: Analysts can seamlessly incorporate data from diverse software environments, allowing comprehensive, integrated analysis without manual conversion or data loss.</p></li>
-<li><p>Versatility: Use of specialized packages like haven or readxl ensures accurate handling of specific data formats, preserving metadata and minimizing the effort involved in translating data formats.</p></li>
-<li><p>Collaboration and Accessibility: Maintaining compatibility with common data formats supports easier collaboration among researchers who may use different software, fostering effective interdisciplinary teamwork.</p></li>
-</ul>
-<p>In summary, correctly importing data in R is not merely a technical step—it is a critical phase ensuring accuracy, efficiency, and compatibility, thereby laying a strong foundation for successful and reliable data analysis.</p>
-<p><br></p>
+<p>In short, proper data import in R sets the foundation for effective and trustworthy analysis.</p>
 </section>
 <section id="using-r-packages-for-importing-data" class="level1">
 <h1>Using R Packages for Importing Data</h1>
-<p>R provides specialized packages designed to simplify the process of importing data. These packages offer user-friendly tools that help you quickly and accurately load various data formats into your R environment. Each package is optimized for particular types of data files, such as CSV, Excel, SPSS, SAS, and Stata, enabling you to easily handle diverse datasets. By using the right package, you ensure smoother data processing, fewer errors, and a more efficient workflow throughout your analysis.</p>
+<p>R offers specialized packages that make it easy to import data from various formats like CSV, Excel, SPSS, SAS, and Stata. These tools are designed to load data quickly and accurately, each optimized for specific file types. Choosing the right package helps reduce errors, streamline your workflow, and improve the overall efficiency of your analysis.</p>
 <p>R has several powerful packages that simplify data import. These are popular data-importing packages from the tidyverse, along with clear examples of datasets you might typically import with each:</p>
 <ol type="1">
 <li><strong>readr</strong>: Efficiently reads CSV, TSV, and other delimited text files.</li>
 </ol>
 <p>Function: read_csv(), read_tsv()</p>
-<p>Advantage:</p>
-<ul>
-<li>Fast and efficient and can handles large files</li>
-<li>Good handling of missing values</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Only works with delimited text files (CSV, TSV)</li>
-<li>No support for Excel, SPSS.</li>
-</ul>
+<p>Advantage: - Fast and efficient and can handles large files - Good handling of missing values</p>
+<p>Disadvantage: - Only works with delimited text files (CSV, TSV) - No support for Excel, SPSS.</p>
 <p>Example dataset: mtcars.csv</p>
 <div class="cell">
 <div class="cell-output cell-output-stderr">
@@ -182,17 +156,8 @@ dbl (11): mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb
 <li><strong>readxl</strong>: Used to read Excel (.xls and .xlsx files)</li>
 </ol>
 <p>Function: read_excel()</p>
-<p>Advantage:</p>
-<ul>
-<li>No dependency on external software like Excel</li>
-<li>Simple syntax</li>
-<li>Supports multiple sheets</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Can only read/import data from Excel files, but cannot write or export data back to Excel files.</li>
-<li>Does not support Excel formulas or advanced formatting.</li>
-</ul>
+<p>Advantage: - No dependency on external software like Excel - Simple syntax - Supports multiple sheets</p>
+<p>Disadvantage: - Can only read/import data from Excel files, but cannot write or export data back to Excel files. - Does not support Excel formulas or advanced formatting.</p>
 <p>Example dataset: “iris.xlsx”</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
@@ -209,17 +174,8 @@ dbl (11): mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb
 <li><strong>rio</strong>: Used to all-in-one package for importing/exporting multiple formats.</li>
 </ol>
 <p>Function: import()</p>
-<p>Advantage:</p>
-<ul>
-<li>One function for many formats e.g.&nbsp;“import(”file.csv”)“.</li>
-<li>Supports .csv, .xlsx, .sav, .dta, .json, .tsv, .rds, and many more.</li>
-<li>Very beginner-friendly.</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Internally depends on other packages (e.g., readxl, haven, etc.)</li>
-<li>Less control for advanced users.</li>
-</ul>
+<p>Advantage: - One function for many formats e.g.&nbsp;“import(”file.csv”)“. - Supports .csv, .xlsx, .sav, .dta, .json, .tsv, .rds, and many more. - Very beginner-friendly.</p>
+<p>Disadvantage: - Internally depends on other packages (e.g., readxl, haven, etc.) - Less control for advanced users.</p>
 <p>To know more about this package, refer to <span class="citation" data-cites="epirhandbook2025import"><em>Import and Export</em> (<a href="#ref-epirhandbook2025import" role="doc-biblioref">2025</a>)</span>.</p>
 <p>Example #1: mtcars dataset</p>
 <div class="cell">
@@ -249,18 +205,8 @@ dbl (11): mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb
 <li><strong>readODS</strong>: Used to import .ods files in R. This package is useful if you work with data from organizations, governments, or partners who use open-source tools and send .ods files.</li>
 </ol>
 <p>Function: read_ods()</p>
-<p>Advantage:</p>
-<ul>
-<li>No need for Excel: Works without requiring Microsoft Excel or Java.</li>
-<li>Simple syntax: Similar to read_excel() and read_csv() functions, making it easy to use.</li>
-<li>Cross-platform support: works on Windows, Mac, and Linux systems.</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Less commonly used in practice: .ods files are not as widely used as .xlsx or .csv formats.</li>
-<li>Limited features: It primarily supports reading .ods files. It does not support writing/saving .ods files.</li>
-<li>No advanced formatting support: cell formatting, formulas, and charts are not preserved or interpreted during import.</li>
-</ul>
+<p>Advantage: - No need for Excel: Works without requiring Microsoft Excel or Java. - Simple syntax: Similar to read_excel() and read_csv() functions, making it easy to use. - Cross-platform support: works on Windows, Mac, and Linux systems.</p>
+<p>Disadvantage: - Less commonly used in practice: .ods files are not as widely used as .xlsx or .csv formats. - Limited features: It primarily supports reading .ods files. It does not support writing/saving .ods files. - No advanced formatting support: cell formatting, formulas, and charts are not preserved or interpreted during import.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 5
@@ -278,55 +224,27 @@ dbl (11): mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb
 <li><strong>DBI + RSQLite</strong>: The DBI package lets R connect to different databases like SQLite, MySQL, MariaDB, PostgreSQL, SQL Server, and Oracle.</li>
 </ol>
 <p>Function: dbReadTable(), dbConnect()</p>
-<p>Advantage:</p>
-<ul>
-<li>Easy-to-use functions for many types of databases.</li>
-<li>Good for large amounts of data.</li>
-<li>Works with different database packages.</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Needs extra packages depending on the database.</li>
-<li>You must have access to the database.</li>
-<li>Some SQL knowledge helps for complex tasks.</li>
-</ul>
+<p>Advantage: - Easy-to-use functions for many types of databases. - Good for large amounts of data. - Works with different database packages.</p>
+<p>Disadvantage: - Needs extra packages depending on the database. - You must have access to the database. - Some SQL knowledge helps for complex tasks.</p>
 <ol start="6" type="1">
 <li><strong>vroom</strong>: Used for fast reading of large delimited files.</li>
 </ol>
 <p>Function: vroom()</p>
-<p>Advantages:</p>
-<ul>
-<li>Extremely fast for big files</li>
-<li>Tidyverse-friendly</li>
-</ul>
-<p>Disadvantages:</p>
-<ul>
-<li>Less stable than readr in rare edge cases</li>
-</ul>
+<p>Advantages: - Extremely fast for big files - Tidyverse-friendly</p>
+<p>Disadvantages: - Less stable than readr in rare edge cases</p>
 <ol start="7" type="1">
 <li><strong>haven</strong>: Used to Import SPSS, Stata, and SAS data</li>
 </ol>
 <p>Function: read_sav(), read_dta(), read_sas()</p>
 <p>Advantage: - Keeps the extra information from the original file — like the full names of questions or what values mean (e.g., 1 = Male, 2 = Female) — so you don’t lose important details when you import the data. - Tidyverse-friendly (returns tibbles) - Allows to easily work with data from those programs such as SPSS (.sav), Stata (.dta), and SAS (.sas7bdat) directly in R without needing to convert the files manually.</p>
-<p>Disadvantage:<br>
-- Only for SPSS/Stata/SAS formats - Slightly slower on very large datasets compared to readr</p>
+<p>Disadvantage: - Only for SPSS/Stata/SAS formats - Slightly slower on very large datasets compared to readr</p>
 <p>Example dataset: survey_data.sav</p>
 <ol start="8" type="1">
 <li><strong>jsonlite</strong>: Used for reading JSON files (tidyverse-compatible).</li>
 </ol>
 <p>Function: fromJSON()</p>
-<p>Advantage:</p>
-<ul>
-<li>Handles nested data</li>
-<li>Converts to lists or data frames</li>
-<li>Good for API data</li>
-<li>real time data from websites or online services like weather, news, or stock prices.</li>
-</ul>
-<p>Disadvantage:</p>
-<ul>
-<li>Output may need restructuring for tidy analysis</li>
-<li>Not part of core tidyverse (but compatible)</li>
-</ul>
+<p>Advantage: - Handles nested data - Converts to lists or data frames - Good for API data - real time data from websites or online services like weather, news, or stock prices.</p>
+<p>Disadvantage: - Output may need restructuring for tidy analysis - Not part of core tidyverse (but compatible)</p>
 <p>For deeper exploration of importing data using R packages, watch these videos <span class="citation" data-cites="statquest2018import">StatQuest with Josh Starmer (<a href="#ref-statquest2018import" role="doc-biblioref">2018</a>)</span> <span class="citation" data-cites="quantpsych2020three">QuantPsych (<a href="#ref-quantpsych2020three" role="doc-biblioref">2020</a>)</span>.</p>
 <p>Also refer to <span class="citation" data-cites="team2000r">Team (<a href="#ref-team2000r" role="doc-biblioref">2000</a>)</span> and <span class="citation" data-cites="wickham2017r">Wickham et al. (<a href="#ref-wickham2017r" role="doc-biblioref">2017</a>)</span> to get more information on importing data using R packages.</p>
 <p>Furthermore, explore <a href="https://hubchev.github.io/ds/80_exercises.html">Import data with c()</a> which gives a view on importing different kinds of datasets.</p>

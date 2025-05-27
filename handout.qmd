@@ -10,7 +10,7 @@ author:
         department: "International Management, M.A."
         address: 
         city: 
-        region: n
+        region: 
         country: null
         postal-code: null
 author-note:
